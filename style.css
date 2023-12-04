@@ -40,14 +40,13 @@
 background-color: chartreuse;
 margin: auto;
 padding: 15px;
-flex-wrap: wrap;
 border: 1px solid black;
 width: 280px;
 height: 25px;
 gap: 5px;
 text-align: right;
-
 font-weight: 600;
+overflow: hidden;
 
 }
 
