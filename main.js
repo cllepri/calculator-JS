@@ -23,20 +23,16 @@ teclas.forEach((el) => {el.addEventListener("click",(evt) =>{
     visor.innerHTML += evt.target.innerHTML
     if (evt.target == ce) {visor.innerHTML = "0"; decim=false}
     oper=false
-    
 })} )
 
 res.addEventListener("click",()=>{
     res = eval(visor.innerHTML)
     visor.innerHTML = res
     oper=false
-   
 })
 
  aba.addEventListener("click",()=>{
     calculadora.classList.toggle("none")
-    //  calculadora.setAttribute("class","none")
-     
  })
 
  
