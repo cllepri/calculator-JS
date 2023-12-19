@@ -4,66 +4,60 @@
     font-family: monospace;
     font-size: 1.2em;
     }
-    header{
+    
+    section{
         background-color: green;
-        width: 100vw;
-        height: 250px;
+        margin: auto;
+        width: 60vw;
+        height: 550px;
+        position: center;
     }
     div#aba{
        width:50px;
        background-color: rgb(10, 10, 10);
-       margin: -200px 10px 0px 100px ;  /*margin negativa para sobrepor as div/section */ 
-       
-       cursor: pointer;
+       margin: 10px;  
        text-align: center;
        color: white;
-        
     }
     main.none{
         display:none !important  /*só funcionou quando colocou important  */
     }
-    
     main#calculadora{
         background-color:rgb(78, 114, 77);
-        margin-left: 100px;
+        margin: auto;
         display:flex;
         flex-direction: column;
-        padding: 25px 5px;
         border: 10px solid black;
         border-radius: 0px 20px 20px ;
         width: 320px;
         gap: 15px;           
     }
-
-#visor{
-background-color: chartreuse;
-margin: auto;
-padding: 15px;
-border: 1px solid black;
-border-radius:5px;
-width: 280px;
-height: 25px;
-gap: 5px;
-text-align: right;
-font-weight: 600;
-overflow: hidden;
-
-}
-
-#teclado{ 
-background-color: gray;
-margin: auto;
-padding: 15px;
-display: flex;
-flex-wrap: wrap;
-border: 1px solid black;
-width: 230px;
-gap: 5px;
-border-radius:0px 15px 15px 0px;
-
-
-}
-.teclas{
+    #visor{
+    background-color: chartreuse;
+    margin: 5px auto;  
+    line-height: 25px;
+    padding: 10px 5px;  
+    border: 1px solid black;
+    border-radius:5px;
+    width: 280px;
+    height: 25px;
+    gap: 5px;
+    text-align: right;
+    font-weight: 600;
+    overflow: hidden;
+    }
+    #teclado{ 
+    background-color: gray;
+    margin: 0px auto 15px ;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 230px;
+    gap: 5px;
+    border-radius:15px 0px 15px 0px;
+    }
+    .teclas{
     background-color: rgb(189, 186, 186);
     padding: auto;
     width: 50px;
@@ -71,14 +65,16 @@ border-radius:0px 15px 15px 0px;
     border: 1px solid black;
     text-align: center;
     border-radius: 10px;
-    
-}
-.falsa{
+    line-height: 50px;
+    }
+    .teclas:hover{
+        cursor: pointer;
+    }
+    .falsa{
     background-color: gray;
     padding: 5px 0px ;
     width: 52px;
     height: 40px;
-    
     text-align: center;
     border-radius: 10px;
 }
