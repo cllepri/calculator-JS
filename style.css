@@ -6,13 +6,13 @@
     }
     
     section{
-        background-color: green;
+        background-color: rgb(186, 194, 186);
         margin: auto;
         width: 60vw;
         height: 550px;
         position: center;
     }
-    div#aba{
+    #aba{
        width:50px;
        background-color: rgb(10, 10, 10);
        margin: 10px;  
@@ -68,6 +68,9 @@
     line-height: 50px;
     }
     .teclas:hover{
+        cursor: pointer;
+    }
+    #aba:hover{
         cursor: pointer;
     }
     .falsa{
