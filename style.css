@@ -55,7 +55,8 @@
     border: 1px solid black;
     width: 230px;
     gap: 5px;
-    border-radius:15px 0px 15px 0px;
+    border-radius:50%;
+/*         15px 0px 15px 0px; */
     }
     .teclas{
     background-color: rgb(189, 186, 186);
