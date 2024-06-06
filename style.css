@@ -6,9 +6,9 @@
 }
 
 section {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(186, 194, 186);
   margin: auto;
-  width: 70vw;
+  width: 60vw;
   height: 550px;
   position: center;
 }
@@ -23,7 +23,7 @@ main.none {
   display: none !important; /*só funcionou quando colocou important  */
 }
 main#calculadora {
-  background-color: rgb(40, 41, 40);
+  background-color: rgb(78, 114, 77);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ main#calculadora {
   gap: 15px;
 }
 #visor {
-  background-color: rgba(128, 255, 0, 0.767);
+  background-color: chartreuse;
   margin: 5px auto;
   line-height: 25px;
   padding: 10px 5px;
@@ -55,27 +55,17 @@ main#calculadora {
   border: 1px solid black;
   width: 230px;
   gap: 5px;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 0px 15px 0px;
 }
 .teclas {
-display: flex;
-justify-content: center;
-
   background-color: rgb(189, 186, 186);
+  padding: auto;
   width: 50px;
   height: 50px;
   border: 1px solid black;
-
-  border-radius: 50%;
+  text-align: center;
+  border-radius: 10px;
   line-height: 50px;
-}
-.par{
-    font-size: 1.8rem;
-
-}
-
-#ce{
-    font-size: 2rem;
 }
 .teclas:hover {
   cursor: pointer;
