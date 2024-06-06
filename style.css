@@ -33,7 +33,7 @@ main#calculadora {
   gap: 15px;
 }
 #visor {
-  background-color: chartreuse;
+  background-color: rgba(128, 255, 0, 0.767);
   margin: 5px auto;
   line-height: 25px;
   padding: 10px 5px;
