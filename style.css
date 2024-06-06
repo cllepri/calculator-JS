@@ -1,83 +1,93 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    font-family: monospace;
-    font-size: 1.2em;
-    }
-    
-    section{
-        background-color: rgb(186, 194, 186);
-        margin: auto;
-        width: 60vw;
-        height: 550px;
-        position: center;
-    }
-    #aba{
-       width:50px;
-       background-color: rgb(10, 10, 10);
-       margin: 10px;  
-       text-align: center;
-       color: white;
-    }
-    main.none{
-        display:none !important  /*só funcionou quando colocou important  */
-    }
-    main#calculadora{
-        background-color:rgb(78, 114, 77);
-        margin: auto;
-        display:flex;
-        flex-direction: column;
-        border: 10px solid black;
-        border-radius: 0px 20px 20px ;
-        width: 320px;
-        gap: 15px;           
-    }
-    #visor{
-    background-color: chartreuse;
-    margin: 5px auto;  
-    line-height: 25px;
-    padding: 10px 5px;  
-    border: 1px solid black;
-    border-radius:5px;
-    width: 280px;
-    height: 25px;
-    gap: 5px;
-    text-align: right;
-    font-weight: 600;
-    overflow: hidden;
-    }
-    #teclado{ 
-    background-color: gray;
-    margin: 0px auto 15px ;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    width: 230px;
-    gap: 5px;
-    border-radius:15px 0px 15px 0px;
-    }
-    .teclas{
-    background-color: rgb(189, 186, 186);
-    padding: auto;
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    text-align: center;
-    border-radius: 10px;
-    line-height: 50px;
-    }
-    .teclas:hover{
-        cursor: pointer;
-    }
-    #aba:hover{
-        cursor: pointer;
-    }
-    .falsa{
-    background-color: gray;
-    padding: 5px 0px ;
-    width: 52px;
-    height: 40px;
-    text-align: center;
-    border-radius: 10px;
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  width: 70vw;
+  height: 550px;
+  position: center;
+}
+#aba {
+  width: 50px;
+  background-color: rgb(10, 10, 10);
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+main.none {
+  display: none !important; /*só funcionou quando colocou important  */
+}
+main#calculadora {
+  background-color: rgb(40, 41, 40);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid black;
+  border-radius: 0px 20px 20px;
+  width: 320px;
+  gap: 15px;
+}
+#visor {
+  background-color: rgba(128, 255, 0, 0.767);
+  margin: 5px auto;
+  line-height: 25px;
+  padding: 10px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 280px;
+  height: 25px;
+  gap: 5px;
+  text-align: right;
+  font-weight: 600;
+  overflow: hidden;
+}
+#teclado {
+  background-color: gray;
+  margin: 0px auto 15px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 230px;
+  gap: 5px;
+  border-radius: 15px 15px 15px 15px;
+}
+.teclas {
+display: flex;
+justify-content: center;
+
+  background-color: rgb(189, 186, 186);
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+
+  border-radius: 50%;
+  line-height: 50px;
+}
+.par{
+    font-size: 1.8rem;
+
+}
+
+#ce{
+    font-size: 2rem;
+}
+.teclas:hover {
+  cursor: pointer;
+}
+#aba:hover {
+  cursor: pointer;
+}
+.falsa {
+  background-color: gray;
+  padding: 5px 0px;
+  width: 52px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
 }
